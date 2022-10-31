@@ -21,7 +21,7 @@ public class HomeActivty extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home_activty);
+        setContentView(R.layout.activity_home);
 
         editTextNumber = findViewById(R.id.editTextNumber);
         editTextNumber2 = findViewById(R.id.editTextNumber2);
@@ -60,7 +60,7 @@ public class HomeActivty extends AppCompatActivity {
             case R.id.help_menu:
                 Toast.makeText(this, "Help clicked", Toast.LENGTH_SHORT).show();//open help activity when the help activity is selected
                 // this is from where, and the second parameter is to where
-                Intent i = new Intent(this, listactivity.class);
+                Intent i = new Intent(this, MainActivity.class);
                 startActivity(i);
                 break;
 

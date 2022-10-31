@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
                 MainActivity.this.finish();
             }
         });
-        dialog.setIcon(R.drawable.ic_baseline_close_24);
+        dialog.setIcon(R.drawable.ic_launcher_background);
         AlertDialog alertDialog = dialog.create();
         alertDialog.show();
     }

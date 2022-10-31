@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.lunaiskander;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -17,7 +17,7 @@ public class listactivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_listactivity);
+        setContentView(R.layout.activity_list);
 
         ListView =(ListView) findViewById(R.id.listView);
 
