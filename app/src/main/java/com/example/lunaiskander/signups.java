@@ -40,7 +40,7 @@ public class signups extends AppCompatActivity {
         preferences = getSharedPreferences("Userinfo",0);
     }
 
-    
+
 
     public void signup (View view){
         String input_mail = email2.getText().toString();
