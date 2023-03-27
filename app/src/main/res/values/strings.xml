@@ -9,4 +9,6 @@
     <string name="signup" />
     <string name="password" />
     <string name="email" />
+    <string name="channel_name">channel name</string>
+    <string name="channel_description">channel description</string>
 </resources>
